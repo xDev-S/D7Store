@@ -141,7 +141,7 @@ twitch-videoad.js text/javascript
                     if (adBlockDiv == null) {
                         adBlockDiv = getAdBlockDiv();
                     }
-                    adBlockDiv.P.textContent = 'D7MAS STORE ADBLOCK';
+                    adBlockDiv.P.textContent = 'D7Store Adblock';
                     adBlockDiv.style.display = 'block';
                 } else if (e.data.key == 'HideAdBlockBanner') {
                     if (adBlockDiv == null) {
